@@ -5,7 +5,7 @@ import Book from "./types/book.js";
 import BookRouter from "./router/book.js";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 app.use(express.json());
 // Define a route
 app.use("/book", BookRouter);
@@ -14,3 +14,5 @@ app.listen(port, () => {
   console.log(`Server is running on ${port}`);
 });
 log("jafar is king");
+
+
