@@ -6,7 +6,6 @@
 
 2. Create a new release in the repository.
 
-3. Attach the `app.tar.gz` package you created to the release.
 
 ### Step 2: Launch EC2 Instances
 
