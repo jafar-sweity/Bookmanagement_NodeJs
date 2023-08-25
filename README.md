@@ -19,6 +19,8 @@
 1. Create an Auto Scaling Group using the AWS Management Console.
 - Choose your AMI as the launch template.
 - Configure desired and maximum instance counts.
+- ![screen shot ]([http://url/to/img.png](https://github.com/jafar-sweity/Bookmanagement_NodeJs/blob/main/Screenshot%20from%202023-08-26%2001-48-27.png))
+
 
 
 2. Create an Application Load Balancer (ALB)
