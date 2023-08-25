@@ -13,18 +13,24 @@
 
 2. Create an Amazon Machine Image (AMI) of your current EC2 instance 
 3. Launch an EC2 instance using the AMI you created, ensuring that your app is installed and configured on this instance.
+- ![screen shot ](https://github.com/jafar-sweity/Bookmanagement_NodeJs/blob/main/Screenshot%20from%202023-08-26%2001-49-43.png)
+- ![screen shot ](https://github.com/jafar-sweity/Bookmanagement_NodeJs/blob/main/Screenshot%20from%202023-08-26%2001-50-53.png)
+
 
 ### Step 3: Configure Auto Scaling Group
 
 1. Create an Auto Scaling Group using the AWS Management Console.
 - Choose your AMI as the launch template.
 - Configure desired and maximum instance counts.
-- ![screen shot ]([http://url/to/img.png](https://github.com/jafar-sweity/Bookmanagement_NodeJs/blob/main/Screenshot%20from%202023-08-26%2001-48-27.png))
+- ![screen shot ](https://github.com/jafar-sweity/Bookmanagement_NodeJs/blob/main/Screenshot%20from%202023-08-26%2001-48-27.png)
+- ![screen shot ](https://github.com/jafar-sweity/Bookmanagement_NodeJs/blob/main/Screenshot%20from%202023-08-26%2001-51-30.png)
 
 
 
 2. Create an Application Load Balancer (ALB)
 - Configure the ALB to listen on the appropriate port (80) and forward traffic to your instances.
+-  ![screen shot ](https://github.com/jafar-sweity/Bookmanagement_NodeJs/blob/main/Screenshot%20from%202023-08-26%2001-53-20.png)
+
 
 ### Step 4: Configure systemd and put it in USER DATA 
 
